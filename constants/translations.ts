@@ -79,7 +79,7 @@ menu: {
           description: '\n\n',
           items: [
             { name: 'موهيتو توت ازرق', description: '160 سعرة حرارية', price: 'SAR 13', image: 'https://res.cloudinary.com/drredhvtd/image/upload/v1760989169/ChatGPT_Image_20_%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1_2025_08_53_14_%D9%85_bdcrep.png' },
-            { name: 'موهيتو توت احمر', description: '150 سعرة حرارية', price: 'SAR 13', image: 'https://res.cloudinary.com/drredhvtd/image/upload/v1760989168/ChatGPT_Image_20_%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1_2025_09_03_34_%D9%85_gu5fzm.png' },
+            { name: 'موهيتو توت احمر', description: '150 سعرة حرارية', price: 'SAR 13', image: 'https://res.cloudinary.com/drredhvtd/image/upload/v1761668684/ChatGPT_Image_20_%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1_2025_11_08_06_%D9%85_vxgnmd.png' },
             { name: 'موهيتو بطيخ', description: '140 سعرة حرارية', price: 'SAR 13', image: 'https://res.cloudinary.com/drredhvtd/image/upload/v1760989168/ChatGPT_Image_20_%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1_2025_09_09_30_%D9%85_u7bxa7.png' },
             { name: 'موهيتو رمان', description: '170 سعرة حرارية', price: 'SAR 13', image: 'https://res.cloudinary.com/drredhvtd/image/upload/v1760989168/ChatGPT_Image_20_%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1_2025_09_18_53_%D9%85_yvma9e.png' },
             { name: 'موهيتو مكس توت', description: '180 سعرة حرارية', price: 'SAR 13', image: 'https://res.cloudinary.com/drredhvtd/image/upload/v1760989168/ChatGPT_Image_20_%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1_2025_09_11_41_%D9%85_e71zrw.png' },
