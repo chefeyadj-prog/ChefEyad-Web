@@ -408,3 +408,4 @@ en: {
     rights_reserved: "All rights reserved © 2024",
   },
 }
+}
