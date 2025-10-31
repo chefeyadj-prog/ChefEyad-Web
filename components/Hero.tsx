@@ -15,7 +15,7 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
         setBgImage(
-          "url('https://res.cloudinary.com/drredhvtd/image/upload/v1761940169/Image_54_jr42oi.png')"
+          "url('https://res.cloudinary.com/drredhvtd/image/upload/v1761944053/Image_54-4_sbpdzr.png')"
         );
       } else {
         setBgImage(
