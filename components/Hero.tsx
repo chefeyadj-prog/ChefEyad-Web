@@ -21,7 +21,7 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
   };
 
   return (
-    <section className="h-screen bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "https://res.cloudinary.com/drredhvtd/image/upload/v1761920975/Edit_v4xl42.png" }}>
+    <section className="h-screen bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "https://res.cloudinary.com/drredhvtd/image/upload/v1761921402/Edit_vebxmw.png" }}>
       <div className="bg-black/60 absolute inset--1"></div>
       <div className="relative text-center text-white px-4 z-10 flex flex-col items-center">
         <video
