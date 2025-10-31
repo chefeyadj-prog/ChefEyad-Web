@@ -46,7 +46,7 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
         {/* 🎥 لوقو متحرك */}
         <video
           src="https://res.cloudinary.com/drredhvtd/video/upload/v1761945086/Untitled_design_3_qow27e.webm"
-          className="h-44 md:h-64 w-auto mb-5 mix-blend-screen"
+          className="h-34 md:h-64 w-auto mb-4 mix-blend-screen"
           autoPlay
           loop
           muted
