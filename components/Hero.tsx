@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 interface HeroProps {
   content: {
@@ -9,34 +9,58 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ content }) => {
+  const [bgImage, setBgImage] = useState<string>('');
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setBgImage(
+          "url('https://res.cloudinary.com/drredhvtd/image/upload/v1761940169/Image_54_jr42oi.png')"
+        );
+      } else {
+        setBgImage(
+          "url('https://res.cloudinary.com/drredhvtd/image/upload/v1761921402/Edit_vebxmw.png')"
+        );
+      }
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const handleNavClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();
     const targetId = event.currentTarget.getAttribute('href')?.substring(1);
     if (targetId) {
-      const targetElement = document.getElementById(targetId);
-      if (targetElement) {
-        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
+      document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
   return (
-    <section className="h-screen bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('https://res.cloudinary.com/drredhvtd/image/upload/v1761921402/Edit_vebxmw.png')" }}>
-      <div className="bg-black/60 absolute inset--1"></div>
+    <section
+      className="h-screen bg-cover bg-center relative flex items-center justify-center"
+      style={{ backgroundImage: bgImage }}
+    >
+      {/* 🔴 أزلنا التظليل الشفاف */}
+
       <div className="relative text-center text-white px-4 z-10 flex flex-col items-center">
-        <video
-          src="https://res.cloudinary.com/drredhvtd/video/upload/v1760800702/Untitled_design_3_r8olw7.mp4"
-          className="h-48 w-auto mb-4 mix-blend-screen"
-          autoPlay
-          loop
-          muted
-          playsInline
-          aria-label="Animated Flame Logo"
+        <img
+          src="https://res.cloudinary.com/drredhvtd/image/upload/v1760730768/chef_Eyad_Sign_boad_rfmjus.png"
+          alt="Chef Eyad Logo"
+          className="h-32 md:h-44 w-auto mb-4 drop-shadow-lg"
+          loading="lazy"
         />
-        <h2 className="text-5xl md:text-7xl font-black font-display mb-4 drop-shadow-lg">{content.title}</h2>
-        <p className="text-xl md:text-2xl mb-8 font-light text-slate-300">{content.subtitle}</p>
-        <a 
-          href="#menu" 
+
+        <h2 className="text-4xl md:text-7xl font-black font-display mb-4 drop-shadow-lg">
+          {content.title}
+        </h2>
+        <p className="text-lg md:text-2xl mb-8 font-light text-slate-300">
+          {content.subtitle}
+        </p>
+
+        <a
+          href="#menu"
           onClick={handleNavClick}
           className="bg-amber-500 text-slate-900 font-bold py-3 px-8 rounded-lg text-lg hover:bg-amber-400 transition-transform transform hover:scale-105 inline-block"
         >
