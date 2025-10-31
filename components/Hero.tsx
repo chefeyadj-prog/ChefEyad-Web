@@ -42,17 +42,19 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
       className="h-screen bg-cover bg-center relative flex items-center justify-center"
       style={{ backgroundImage: bgImage }}
     >
-      {/* 🔴 أزلنا التظليل الشفاف */}
-
       <div className="relative text-center text-white px-4 z-10 flex flex-col items-center">
-        <img
-          src="https://res.cloudinary.com/drredhvtd/image/upload/v1760730768/chef_Eyad_Sign_boad_rfmjus.png"
-          alt="Chef Eyad Logo"
-          className="h-32 md:h-44 w-auto mb-4 drop-shadow-lg"
-          loading="lazy"
+        {/* 🎥 لوقو متحرك */}
+        <video
+          src="https://res.cloudinary.com/drredhvtd/video/upload/v1761937022/Untitled_design_js91fs.webm"
+          className="h-32 md:h-48 w-auto mb-4 mix-blend-screen"
+          autoPlay
+          loop
+          muted
+          playsInline
+          aria-label="Chef Eyad Animated Logo"
         />
 
-        <h2 className="text-3xl md:text-7xl font-black font-display mb-4 drop-shadow-lg">
+        <h2 className="text-4xl md:text-7xl font-black font-display mb-4 drop-shadow-lg">
           {content.title}
         </h2>
         <p className="text-lg md:text-2xl mb-8 font-light text-slate-300">
