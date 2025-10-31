@@ -45,7 +45,7 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
       <div className="relative text-center text-white px-4 z-10 flex flex-col items-center">
         {/* 🎥 لوقو متحرك */}
         <video
-          src="https://res.cloudinary.com/drredhvtd/video/upload/v1761937022/Untitled_design_js91fs.webm"
+          src="https://res.cloudinary.com/drredhvtd/video/upload/v1761945086/Untitled_design_3_qow27e.webm"
           className="h-32 md:h-48 w-auto mb-4 mix-blend-screen"
           autoPlay
           loop
