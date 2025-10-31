@@ -54,7 +54,7 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
           aria-label="Chef Eyad Animated Logo"
         />
 
-        <h2 className="text-4xl md:text-7xl font-black font-display mb-4 drop-shadow-lg">
+        <h2 className="text-3xl md:text-7xl font-black font-display mb-4 drop-shadow-lg">
           {content.title}
         </h2>
         <p className="text-lg md:text-2xl mb-8 font-light text-slate-300">
