@@ -84,8 +84,8 @@ menu: {
             { name: 'موهيتو رمان', description: '170 سعرة حرارية', price: 'SAR 13', image: 'https://res.cloudinary.com/drredhvtd/image/upload/v1761669792/ChatGPT_Image_20_%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1_2025_11_08_06_%D9%85asd_w19t1h.png' },
             { name: 'موهيتو مكس توت', description: '180 سعرة حرارية', price: 'SAR 13', image: 'https://res.cloudinary.com/drredhvtd/image/upload/v1761669533/ChatGPT_Image_20_%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1_2025_11_iklvcs.png' },
             { name: 'موهيتو باشن فروت', description: '160 سعرة حرارية', price: 'SAR 13', image: 'https://res.cloudinary.com/drredhvtd/image/upload/v1760990894/ChatGPT_Image_20_%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1_2025_11_08_06_%D9%85_fectfj.png' },
-            { name: 'موهيتو ايس تي الشيف اياد', description: '130 سعرة حرارية', price: 'SAR 15', image: '' },
-            { name: 'سعودي كوكتيل', description: '250 سعرة حرارية', price: 'SAR 15', image: 'https://res.cloudinary.com/drredhvtd/image/upload/v1761670731/%D8%A8%D8%A8%D9%84%D8%A8%D9%84%D9%8A_wjqpfe.png' },
+            { name: 'موهيتو ايس تي الشيف اياد', description: '130 سعرة حرارية', price: 'SAR 15', image: 'https://res.cloudinary.com/drredhvtd/image/upload/v1761670731/%D8%A8%D8%A8%D9%84%D8%A8%D9%84%D9%8A_wjqpfe.png' },
+            { name: 'سعودي كوكتيل', description: '250 سعرة حرارية', price: 'SAR 15', image: 'https://res.cloudinary.com/drredhvtd/image/upload/v1761918900/Sasdas_wggrhc.png' },
           ],
         },
         {
@@ -286,8 +286,8 @@ en: {
           { name: "Pomegranate Mojito", description: "170 kcal", price: "SAR 13", image: "https://res.cloudinary.com/drredhvtd/image/upload/v1760989168/ChatGPT_Image_20_%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1_2025_09_18_53_%D9%85_yvma9e.png" },
           { name: "Mixed Berry Mojito", description: "180 kcal", price: "SAR 13", image: "https://res.cloudinary.com/drredhvtd/image/upload/v1760989168/ChatGPT_Image_20_%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1_2025_09_11_41_%D9%85_e71zrw.png" },
           { name: "Passion Fruit Mojito", description: "160 kcal", price: "SAR 13", image: "https://res.cloudinary.com/drredhvtd/image/upload/v1760990894/ChatGPT_Image_20_%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1_2025_11_08_06_%D9%85_fectfj.png" },
-          { name: "Chef Eyad Iced Tea Mojito", description: "130 kcal", price: "SAR 15", image: "" },
-          { name: "Saudi Cocktail", description: "250 kcal", price: "SAR 15", image: "" },
+          { name: "Chef Eyad Iced Tea Mojito", description: "130 kcal", price: "SAR 15", image: "https://res.cloudinary.com/drredhvtd/image/upload/v1761670731/%D8%A8%D8%A8%D9%84%D8%A8%D9%84%D9%8A_wjqpfe.png" },
+          { name: "Saudi Cocktail", description: "250 kcal", price: "SAR 15", image: "https://res.cloudinary.com/drredhvtd/image/upload/v1761918048/Edit_hazaxy.png" },
         ],
       },
       {
