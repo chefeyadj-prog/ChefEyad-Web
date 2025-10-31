@@ -36,7 +36,7 @@ const Header: React.FC<HeaderProps> = ({ nav, language, toggleLanguage }) => {
           <img 
             src="https://res.cloudinary.com/drredhvtd/image/upload/v1760730768/chef_Eyad_Sign_boad_rfmjus.png" 
             alt="Chef Eyad Jeddah Logo" 
-            className="h-14 w-auto" 
+            className="h-12 w-auto" 
           />
         </div>
 
