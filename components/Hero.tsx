@@ -48,7 +48,7 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
         <img
           src="https://res.cloudinary.com/drredhvtd/image/upload/v1760730768/chef_Eyad_Sign_boad_rfmjus.png"
           alt="Chef Eyad Logo"
-          className="h-34 md:h-44 w-auto mb-4 drop-shadow-lg"
+          className="h-33 md:h-44 w-auto mb-4 drop-shadow-lg"
           loading="lazy"
         />
 
