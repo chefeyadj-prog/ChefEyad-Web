@@ -15,11 +15,11 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
         setBgImage(
-          "url('https://www.canva.com/design/DAG5c_B5p1g/ev1NJQzjkEwcGOHIMb7yRg/edit?utm_content=DAG5c_B5p1g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')"
+          "url('https://ik.imagekit.io/ckmv7berw/bg-Mobile.png')"
         );
       } else {
         setBgImage(
-          "url('https://drive.google.com/file/d/1DKXC13QBSyqtXE_69CqDlSDG4O892I_Q/view?usp=drive_link')"
+          "url('https://ik.imagekit.io/ckmv7berw/bg-desktop.jpg')"
         );
       }
     };
@@ -45,7 +45,7 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
       <div className="relative text-center text-white px-4 z-10 flex flex-col items-center">
         {/* 🎥 لوقو متحرك */}
         <video
-          src="https://res.cloudinary.com/drredhvtd/video/upload/v1761945086/Untitled_design_3_qow27e.webm"
+          src="https://ik.imagekit.io/ckmv7berw/Logo-move.webm"
           className="h-32 md:h-64 w-auto mb-4 mix-blend-screen"
           autoPlay
           loop
