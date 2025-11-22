@@ -15,7 +15,7 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
         setBgImage(
-          "url('https://drive.google.com/file/d/1VAElKOeMvHs7H8cbQzgkGD3q33UdABVV/view?usp=drive_link')"
+          "url('https://www.canva.com/design/DAG5c_B5p1g/ev1NJQzjkEwcGOHIMb7yRg/edit?utm_content=DAG5c_B5p1g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')"
         );
       } else {
         setBgImage(
