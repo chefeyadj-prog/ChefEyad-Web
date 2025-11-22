@@ -34,7 +34,7 @@ const Header: React.FC<HeaderProps> = ({ nav, language, toggleLanguage }) => {
         {/* الشعار */}
         <div className="flex items-center flex-shrink-0">
           <img 
-            src="https://ik.imagekit.io/ckmv7berw/chef%20Eyad%20Sign%20boad%20.png?updatedAt=1763840506297" 
+            src="https://ik.imagekit.io/ckmv7berw/chef%20Log%20.png?updatedAt=1763843995406" 
             alt="Chef Eyad Jeddah Logo" 
             className="h-12 w-auto" 
           />
