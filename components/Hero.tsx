@@ -15,11 +15,11 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
         setBgImage(
-          "url('https://res.cloudinary.com/drredhvtd/image/upload/v1761944053/Image_54-4_sbpdzr.png')"
+          "url('https://drive.google.com/file/d/1VAElKOeMvHs7H8cbQzgkGD3q33UdABVV/view?usp=drive_link')"
         );
       } else {
         setBgImage(
-          "url('https://res.cloudinary.com/drredhvtd/image/upload/v1761921402/Edit_vebxmw.png')"
+          "url('https://drive.google.com/file/d/1DKXC13QBSyqtXE_69CqDlSDG4O892I_Q/view?usp=drive_link')"
         );
       }
     };
