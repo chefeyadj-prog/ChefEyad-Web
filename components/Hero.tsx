@@ -15,7 +15,7 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
     const handleResize = () => {
       if (window.innerWidth < 768) {
         setBgImage(
-          "url('https://ik.imagekit.io/ckmv7berw/bg-Mobile.png')"
+          "url('https://ztucvyiiryqykrteplik.supabase.co/storage/v1/object/sign/ma/Screenshot%202025-12-20%20145533.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9mOTAxMTQzOS0zMjZlLTQ0MjUtYjg0ZS01NjcyNmNhNzUwMzAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJtYS9TY3JlZW5zaG90IDIwMjUtMTItMjAgMTQ1NTMzLnBuZyIsImlhdCI6MTc2NjI1NzY1OSwiZXhwIjoxNzk3NzkzNjU5fQ.kDavtzEnapHIdQEqxtQmJe8W21siMalfLjx_xj2c6FQ')"
         );
       } else {
         setBgImage(
